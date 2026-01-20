@@ -1,0 +1,71 @@
+.collage{
+    position: absolute;
+}
+
+#special1{
+    background-color:black; /* Background color */
+}
+
+p{
+    color: white; /* Font color of all paragraph elements */
+}
+
+h1{
+    color: red; /* Font color of all H1 elements */
+}
+
+h2{
+    color: blue; /* Font color of all H2 elements */
+}
+
+h3{
+    color: green; /* Font color of all H3 elements */
+}
+
+h4{
+    color: yellow; /* Font color of all H4 elements */
+}
+
+ul{
+    color: white; /* Font color of all unordered list elements */
+}
+
+ol{
+    color: white; /* Font color of all ordered list elements */
+}
+
+blockquote{
+    color: white; /* Font color of all block quote elements */
+}
+
+.cropcontainer {
+    position:absolute;
+    overflow: hidden;
+    width: 100px;
+    height: 10px;
+}
+
+.center {
+    position:absolute;
+    left:50%;
+    transform:translate(-50%,0);
+}
+
+.display-exp {
+    display:inline-block;
+    padding:0px;
+}
+
+.flexbox {
+    display:flex;
+    background-color:aquamarine;
+    flex-direction:row;
+}
+
+.flexbox div {
+    background-color:pink;
+    margin:10px;
+    padding:20px;
+    font-size:20px;
+    flex:7;
+}

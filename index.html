@@ -2,35 +2,46 @@
 <html lang="en">
 <head>
     <title>Simon Price</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body id="special1">
 
 <header>
-    <h1><b>Hello World</b><h1>
+    <h1 class="collage" style="position:relative;top:50%;left:70%;"><b>Hello World</b><h1>
 </header>
 
 <main>
 
     <section>
-    <p>First paragraph</p>
+    <p class="collage" style="transform:scale(27,34)">First paragraph</p>
+    
     <p>Second paragraph</p>
     </section>
 
     <section>
     <div>
-        <h1>Main Heading</h1>
+        <h1 class="collage" style="transform:rotate(50deg)">Main Heading</h1>
+       
         <h2>Heading 2</h2>
+       
         <h3>Heading 3</h3>
-        <h4>Heading 4</h4>
+        
+        <h4 class="collage" style="transform:rotate3d(1, 2, 1, 50deg)">Heading 4</h4>
     </div>
     </section>
 
     <section>
+        
         <p>Regular paragraph</p>
+        
         <p><span>Inline text</span></p>
+        
         <p><strong>Bold text (strong)</strong></p>
+        
         <p><a href="https://www.uncg.edu" target="_blank">Link to UNCG's website.</a></p>
+        
         <p><i>Italic text</i></p>
+    
     </section>
 
     <br>
@@ -51,21 +62,54 @@
     </section>
 
     <section>
+        
         <img src="./images/bagel.jpg" alt="Three bagels."
-        width="500"
-        height="315">
+        width="500" height="315" 
+        class="collage" style="top:10vh;left:60vw;">
+    
     </section>
 
     <br>
 
     <section>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/QiMntDfZZbE?si=xTd4XaptqnyTvMXK" title="YouTube video player" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/QiMntDfZZbE?si=xTd4XaptqnyTvMXK" title="YouTube video player" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen 
+        class="collage" style="top:300px;left:100px;"></iframe>
+    
     </section>
 
     <section>
+        
         <p><q>Quote</q></p>
+        
         <p><blockquote>Block quote</blockquote></p>
+    
     </section>
+
+    <div class="cropcontainer" style="width:200px;height:200px;">
+        
+        <img src="./images/bagel.jpg" alt="Three bagels." 
+        style="position:absolute;top:-100px;left:-100px">
+    
+    </div>
+
+    <div class="container" style="position:relative;width:100vw;height:auto;">
+
+        <h1 class="center">Centered text</h1>
+    
+    </div>
+
+    <div class="display-exp">
+
+        <img src="./images/bagel.jpg" alt="Three bagels." style="scale:20%;">
+
+    </div>
+
+    <div class="flexbox">
+        <div style="flex:2">Item 1</div>
+        <div style="flex:2">Item 2</div>
+        <div style="flex:5">Item 3</div>
+    </div>
 
 </main>
 
