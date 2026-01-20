@@ -45,12 +45,6 @@ blockquote{
     height: 10px;
 }
 
-.center {
-    position:absolute;
-    left:50%;
-    transform:translate(-50%,0);
-}
-
 .display-exp {
     display:inline-block;
     padding:0px;
@@ -58,14 +52,40 @@ blockquote{
 
 .flexbox {
     display:flex;
-    background-color:aquamarine;
     flex-direction:row;
+    justify-content:center;
+    align-items:center;
 }
 
 .flexbox div {
-    background-color:pink;
-    margin:10px;
-    padding:20px;
+    margin:5%;
+    padding:5%;
     font-size:20px;
     flex:7;
+}
+
+.lacquer-regular {
+    font-family: "Lacquer", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @keyframes myAnimation {
+    0%   {color: red;}
+    25%  {color: yellow;}
+    50%  {color: lime;}
+    100% {color: rgb(0, 110, 255);}
+  }
+  
+  .center {
+    position:absolute;
+    left:50%;
+    transform:translate(-50%,0);
+    animation-name: myAnimation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.collage:hover {
+    color: blue;
 }
