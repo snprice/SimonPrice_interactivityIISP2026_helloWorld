@@ -3,24 +3,41 @@
 <head>   <!--Contains metadata about the document-->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>Simon's Online Journal</title>
+
+  <link rel="stylesheet" href="journal.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Crafty+Girls&family=Lacquer&display=swap" rel="stylesheet">
+
 </head>
 <body>  <!--Contains the visible page content-->
  
-  <div>
-  <header>
-    <h1 style="color:green;">Simon's Online Journal</h1>
-  </header>
+  <div class="container">
+    <header>
+      <h1 style="color:green; position:absolute; left:2vw;">
+      Simon's Online Journal</h1>
+    </header>
   </div>
   
   <main>
 
+  <div class="container">
   <header>
-  <h3 style="color:green;">January 15th, 2026</h3>
+  <h2 style="color:green">January 15th, 2026</h2>
   </header>
+  </div>
 
-  <br>
+  <div class="grid-container">
 
+  <div>
+  <img src="./images/selfie.jpg" alt="A selfie of me, Simon Price."
+  width="">
+  </div>
+
+  <div>
   <p>I have a pretty busy schedule today. First, I had my class <b>Interactivity II</b> from 8:00am to 10:30am. We covered some basic topics like attribute tags. I also learned some more about how GitHub works.</p>
 
   <p>After class, I'm going to eat breakfast at the dining hall. I used a picture of a bagel for my website in class, so now I'm <i>really</i> hungry for a bagel...</p>
@@ -31,14 +48,33 @@
 
   <p>After all that, I'll just chill for the rest of the day. Luckily I don't have any classes on Friday, so aside from a few hours where I'll be in a meeting, I'll have the day free to just relax :)</p>
 
+  </div>
+
+  </div>
+
   <br>
 
-  <p style="color:green;"><b>Listening to: Dear Sons and Daughters of Hungry Ghosts - Wolf Parade<b></p>
+  <div class="container">
 
-  <audio controls>
+    <h3 style="color:green;"><b>Listening to: Dear Sons and Daughters of Hungry Ghosts - Wolf Parade<b></h3>
+
+    <audio controls>
       <source src="./audio/Dear Sons And Daughters Of Hungry Ghosts.mp3" type="audio/mpeg">
       Your browser does not support the audio tag.
-  </audio>
+    </audio>
+
+  <br>
+
+  </div>
+
+  <div class="cropcontainer" style="width:500px;height:300px;">
+
+  <img src="./images/flowers.jpg" alt="Light pink flowers."   
+    style="position:absolute;">
+  
+  </div>
+
+  <br>
 
   </main>
 

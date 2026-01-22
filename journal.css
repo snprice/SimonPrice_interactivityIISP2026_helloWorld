@@ -1,0 +1,83 @@
+body {
+    background-color: rgb(214, 248, 168);
+    margin-left: 1%;
+    margin-right: 3%;
+    padding: 1%;
+}
+
+.crafty-girls-regular {
+    font-family: "Crafty Girls", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+h1 {
+    font-family: "Crafty Girls", cursive;
+    font-weight: 400;
+    font-style: normal;
+    animation-name: headeranimation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+h2 {
+    font-family: "Crafty Girls", cursive;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 50%;
+    padding-bottom: 2%;
+}
+
+h3 {
+    font-family: "Crafty Girls", cursive;
+    font-weight: 400;
+    font-style: normal;
+    padding-right:3%;
+}
+
+p {
+    font-family: "Crafty Girls", cursive;
+    font-weight: 400;
+    font-style: normal;
+    margin: 3%;
+}
+
+audio {
+    padding: 1%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin-left: 1%;
+}
+
+img {
+    width: auto;
+    height: 70vh;
+}
+
+.cropcontainer {
+    position:absolute;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+}
+
+img:hover {
+    width: auto;
+    height: 75vh;
+    transition: 0.5s;
+}
+
+@keyframes headeranimation {
+    0% {font-size: 30px;}
+    50% {font-size: 40px;}
+    100% {font-size: 30px;}
+  }
